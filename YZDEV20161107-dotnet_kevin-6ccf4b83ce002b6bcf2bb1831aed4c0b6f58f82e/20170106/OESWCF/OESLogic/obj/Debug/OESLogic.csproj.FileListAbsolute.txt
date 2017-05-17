@@ -1,0 +1,16 @@
+C:\Documents and Settings\kevin.Wen\my documents\visual studio 2010\Projects\OESWCF\OESLogic\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\kevin.Wen\my documents\visual studio 2010\Projects\OESWCF\OESLogic\bin\Debug\OESLogic.dll
+C:\Documents and Settings\kevin.Wen\my documents\visual studio 2010\Projects\OESWCF\OESLogic\bin\Debug\OESLogic.pdb
+C:\Documents and Settings\kevin.Wen\my documents\visual studio 2010\Projects\OESWCF\OESLogic\bin\Debug\OESCommon.dll
+C:\Documents and Settings\kevin.Wen\my documents\visual studio 2010\Projects\OESWCF\OESLogic\bin\Debug\OESDal.dll
+C:\Documents and Settings\kevin.Wen\my documents\visual studio 2010\Projects\OESWCF\OESLogic\bin\Debug\OESException.dll
+C:\Documents and Settings\kevin.Wen\my documents\visual studio 2010\Projects\OESWCF\OESLogic\bin\Debug\OESModel.dll
+C:\Documents and Settings\kevin.Wen\my documents\visual studio 2010\Projects\OESWCF\OESLogic\bin\Debug\OESUtil.dll
+C:\Documents and Settings\kevin.Wen\my documents\visual studio 2010\Projects\OESWCF\OESLogic\bin\Debug\OESCommon.pdb
+C:\Documents and Settings\kevin.Wen\my documents\visual studio 2010\Projects\OESWCF\OESLogic\bin\Debug\OESDal.pdb
+C:\Documents and Settings\kevin.Wen\my documents\visual studio 2010\Projects\OESWCF\OESLogic\bin\Debug\OESException.pdb
+C:\Documents and Settings\kevin.Wen\my documents\visual studio 2010\Projects\OESWCF\OESLogic\bin\Debug\OESModel.pdb
+C:\Documents and Settings\kevin.Wen\my documents\visual studio 2010\Projects\OESWCF\OESLogic\bin\Debug\OESUtil.pdb
+C:\Documents and Settings\kevin.Wen\my documents\visual studio 2010\Projects\OESWCF\OESLogic\obj\Debug\OESLogic.dll
+C:\Documents and Settings\kevin.Wen\my documents\visual studio 2010\Projects\OESWCF\OESLogic\obj\Debug\OESLogic.pdb
+C:\Documents and Settings\kevin.Wen\my documents\visual studio 2010\Projects\OESWCF\OESLogic\bin\Debug\log4net.dll

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<controller>
+    <action name="saveQuestion" class="questionController" method="save" httpMethod="POST,GET">
+        <result name="success" view="/showQuestion.action" redirect="true" />
+        <result name="fail" view="/WEB-INF/jsp/createQuestion.jsp" redirect="false" />
+    </action>
+     <action name="editQuestion" class="questionController" method="edit">
+        <result name="edit" view="/WEB-INF/jsp/editQuestion.jsp" redirect="true" />
+    </action>
+     <action name="showQuestion" class="questionController" method="show" httpMethod="POST,GET">
+        <result name="show" view="showQuestion.action" redirect="false" />
+    </action>
+    <action name="deleteQuestion" class="questionController" method="delete" httpMethod="POST,GET">
+        <result name="success" view="showQuestion.action" redirect="false" />
+    </action>
+    <action name="detailQuestion" class="questionController" method="detail">
+    </action>
+    <action name="saveLogin" class="userController" method="saveLogin" httpMethod="POST">
+        <result name="fail" view="login.action" redirect="true" />
+    </action>
+    <action name="login" class="userController" method="login">
+        <result name="input" view="/WEB-INF/jsp/login.jsp" redirect="false"/>
+        <result name="hadLogin" view="showQuestion.action" redirect="true" />
+    </action>
+    <action name="logout" class="userController" method="logout">
+        <result name="fail" view="login.action" redirect="true" />
+    </action>
+</controller>

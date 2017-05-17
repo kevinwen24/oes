@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ee3fa4bb-d2d0-4ce4-9b43-9a678dbd31d1" name="Kevin.Wen@YT00701 2017-01-04 11:09:39" runUser="YZ\Kevin.Wen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="1b3899ad-4715-4765-a81c-34792c38b687">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Kevin.Wen_YT00701 2017-01-04 11_09_39">
+      <DeploymentItem filename="C:\Documents and Settings\kevin.Wen\my documents\visual studio 2010\Projects\OESWCF\OESModel\bin\Debug\OESModel.dll" />
+      <DeploymentItem filename="D:\DotNet\NUnit-2.5.10.11092\bin\net-2.0\framework\nunit.framework.dll" />
+      <DeploymentItem filename="C:\Documents and Settings\kevin.Wen\my documents\visual studio 2010\Projects\OESWCF\OESLogic\bin\Debug\OESLogic.dll" />
+      <DeploymentItem filename="C:\Documents and Settings\kevin.Wen\my documents\visual studio 2010\Projects\OESWCF\OESUtil\bin\Debug\OESUtil.dll" />
+      <DeploymentItem filename="C:\Documents and Settings\kevin.Wen\my documents\visual studio 2010\Projects\OESWCF\OESException\bin\Debug\OESException.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2017-01-04T11:09:39.2145065+08:00" queuing="2017-01-04T11:09:39.2301145+08:00" start="2017-01-04T11:09:39.2613305+08:00" finish="2017-01-04T11:09:39.8388265+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LoginTest" storage="c:\documents and settings\kevin.wen\my documents\visual studio 2010\projects\oeswcf\oestest\bin\debug\oestest.dll" id="b0c3d100-8f8b-d1b5-02cd-978e77b9e4a7">
+      <Execution id="20f5f78b-7fcd-4cf9-9009-ef9f1735d3c8" />
+      <TestMethod codeBase="C:/Documents and Settings/kevin.Wen/my documents/visual studio 2010/Projects/OESWCF/OESTest/bin/Debug/OESTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OESTest.UserServiceTest, OESTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoginTest" />
+    </UnitTest>
+    <UnitTest name="LoginUserNotExistTest" storage="c:\documents and settings\kevin.wen\my documents\visual studio 2010\projects\oeswcf\oestest\bin\debug\oestest.dll" id="c4554dac-e668-ebdc-32ae-a581845cce87">
+      <Execution id="17fddeb3-cb4f-4cec-b631-ab97915c6bef" />
+      <TestMethod codeBase="C:/Documents and Settings/kevin.Wen/my documents/visual studio 2010/Projects/OESWCF/OESTest/bin/Debug/OESTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OESTest.UserServiceTest, OESTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoginUserNotExistTest" />
+    </UnitTest>
+    <UnitTest name="LoginWithIncorrectPasswordTest" storage="c:\documents and settings\kevin.wen\my documents\visual studio 2010\projects\oeswcf\oestest\bin\debug\oestest.dll" id="7a2e40a1-e93e-2db5-4424-dd3f02c07f13">
+      <Execution id="1b7983de-85ee-4a8c-83f4-3da484e0bcbc" />
+      <TestMethod codeBase="C:/Documents and Settings/kevin.Wen/my documents/visual studio 2010/Projects/OESWCF/OESTest/bin/Debug/OESTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OESTest.UserServiceTest, OESTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoginWithIncorrectPasswordTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="7a2e40a1-e93e-2db5-4424-dd3f02c07f13" executionId="1b7983de-85ee-4a8c-83f4-3da484e0bcbc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b0c3d100-8f8b-d1b5-02cd-978e77b9e4a7" executionId="20f5f78b-7fcd-4cf9-9009-ef9f1735d3c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c4554dac-e668-ebdc-32ae-a581845cce87" executionId="17fddeb3-cb4f-4cec-b631-ab97915c6bef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1b7983de-85ee-4a8c-83f4-3da484e0bcbc" testId="7a2e40a1-e93e-2db5-4424-dd3f02c07f13" testName="LoginWithIncorrectPasswordTest" computerName="YT00701" duration="00:00:00.1136116" startTime="2017-01-04T11:09:39.2613305+08:00" endTime="2017-01-04T11:09:39.7295705+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b7983de-85ee-4a8c-83f4-3da484e0bcbc">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method OESTest.UserServiceTest.TestInitialize threw exception. System.InvalidOperationException: System.InvalidOperationException: ExecuteReader requires an open and available Connection. The connection's current state is closed..</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlConnection.GetOpenConnection(String method)
+   at System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at OESTest.UserServiceTest.TestInitialize() in C:\Documents and Settings\kevin.Wen\my documents\visual studio 2010\Projects\OESWCF\OESTest\UserServiceTest.cs:line 39
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="20f5f78b-7fcd-4cf9-9009-ef9f1735d3c8" testId="b0c3d100-8f8b-d1b5-02cd-978e77b9e4a7" testName="LoginTest" computerName="YT00701" duration="00:00:00.0082731" startTime="2017-01-04T11:09:39.7451785+08:00" endTime="2017-01-04T11:09:39.7607865+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="20f5f78b-7fcd-4cf9-9009-ef9f1735d3c8">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method OESTest.UserServiceTest.TestInitialize threw exception. System.InvalidOperationException: System.InvalidOperationException: ExecuteReader requires an open and available Connection. The connection's current state is closed..</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlConnection.GetOpenConnection(String method)
+   at System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at OESTest.UserServiceTest.TestInitialize() in C:\Documents and Settings\kevin.Wen\my documents\visual studio 2010\Projects\OESWCF\OESTest\UserServiceTest.cs:line 39
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="17fddeb3-cb4f-4cec-b631-ab97915c6bef" testId="c4554dac-e668-ebdc-32ae-a581845cce87" testName="LoginUserNotExistTest" computerName="YT00701" duration="00:00:00.0031156" startTime="2017-01-04T11:09:39.7763945+08:00" endTime="2017-01-04T11:09:39.7920025+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="17fddeb3-cb4f-4cec-b631-ab97915c6bef">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method OESTest.UserServiceTest.TestInitialize threw exception. System.InvalidOperationException: System.InvalidOperationException: ExecuteReader requires an open and available Connection. The connection's current state is closed..</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlConnection.GetOpenConnection(String method)
+   at System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at OESTest.UserServiceTest.TestInitialize() in C:\Documents and Settings\kevin.Wen\my documents\visual studio 2010\Projects\OESWCF\OESTest\UserServiceTest.cs:line 39
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

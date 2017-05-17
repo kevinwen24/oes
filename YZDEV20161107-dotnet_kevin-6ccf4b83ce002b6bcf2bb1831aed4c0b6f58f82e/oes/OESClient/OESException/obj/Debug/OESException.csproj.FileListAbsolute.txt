@@ -1,0 +1,5 @@
+D:\DotNet\workspace\LoginUI\OESException\bin\Debug\OESException.dll
+D:\DotNet\workspace\LoginUI\OESException\bin\Debug\OESException.pdb
+D:\DotNet\workspace\LoginUI\OESException\obj\Debug\ResolveAssemblyReference.cache
+D:\DotNet\workspace\LoginUI\OESException\obj\Debug\OESException.dll
+D:\DotNet\workspace\LoginUI\OESException\obj\Debug\OESException.pdb

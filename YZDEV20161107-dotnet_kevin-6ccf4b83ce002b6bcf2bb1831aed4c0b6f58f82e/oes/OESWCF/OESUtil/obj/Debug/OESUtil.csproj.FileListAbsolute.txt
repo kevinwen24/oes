@@ -1,0 +1,7 @@
+C:\Documents and Settings\kevin.Wen\my documents\visual studio 2010\Projects\OESWCF\OESUtil\bin\Debug\OESUtil.dll
+C:\Documents and Settings\kevin.Wen\my documents\visual studio 2010\Projects\OESWCF\OESUtil\bin\Debug\OESUtil.pdb
+C:\Documents and Settings\kevin.Wen\my documents\visual studio 2010\Projects\OESWCF\OESUtil\bin\Debug\OESModel.dll
+C:\Documents and Settings\kevin.Wen\my documents\visual studio 2010\Projects\OESWCF\OESUtil\bin\Debug\OESModel.pdb
+C:\Documents and Settings\kevin.Wen\my documents\visual studio 2010\Projects\OESWCF\OESUtil\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\kevin.Wen\my documents\visual studio 2010\Projects\OESWCF\OESUtil\obj\Debug\OESUtil.dll
+C:\Documents and Settings\kevin.Wen\my documents\visual studio 2010\Projects\OESWCF\OESUtil\obj\Debug\OESUtil.pdb

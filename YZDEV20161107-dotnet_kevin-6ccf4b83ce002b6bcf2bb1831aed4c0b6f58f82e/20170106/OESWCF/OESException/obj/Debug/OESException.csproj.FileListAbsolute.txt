@@ -1,0 +1,5 @@
+c:\documents and settings\kevin.wen\my documents\visual studio 2010\Projects\OESWCF\OESException\bin\Debug\OESException.dll
+c:\documents and settings\kevin.wen\my documents\visual studio 2010\Projects\OESWCF\OESException\bin\Debug\OESException.pdb
+c:\documents and settings\kevin.wen\my documents\visual studio 2010\Projects\OESWCF\OESException\obj\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\kevin.wen\my documents\visual studio 2010\Projects\OESWCF\OESException\obj\Debug\OESException.dll
+c:\documents and settings\kevin.wen\my documents\visual studio 2010\Projects\OESWCF\OESException\obj\Debug\OESException.pdb

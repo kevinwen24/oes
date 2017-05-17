@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:hdp="http://www.springframework.org/schema/hadoop" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+    xmlns:context="http://www.springframework.org/schema/context" xmlns:util="http://www.springframework.org/schema/util" xmlns:tx="http://www.springframework.org/schema/tx"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-3.1.xsd
+        http://www.springframework.org/schema/cache
+        http://www.springframework.org/schema/cache/spring-cache.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-3.1.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
+        http://www.springframework.org/schema/util
+        http://www.springframework.org/schema/util/spring-util-3.1.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx-3.1.xsd">
+
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+           <list>
+                <value>classpath:app.properties</value>
+           </list>
+        </property>
+    </bean>
+
+     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
+        <property name="driverClass" value="${jdbc.driver}"></property>
+        <property name="jdbcUrl" value="${jdbc.url}"></property>
+        <property name="user" value="${jdbc.user}"></property>
+        <property name="password" value="${jdbc.password}"></property>
+
+        <property name="maxPoolSize" value="20" />
+        <property name="minPoolSize" value="5" />
+        <property name="acquireIncrement" value="3" />
+        <property name="initialPoolSize" value="5"></property>
+    </bean>
+
+    <bean id="logMethhodTime" class="com.augmentum.oes.service.impl.LogMethhodTime"></bean>
+
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="add*" propagation="REQUIRED" read-only="false" />
+            <tx:method name="*" propagation="SUPPORTS" read-only="true" />
+        </tx:attributes>
+    </tx:advice>
+
+   <aop:config>
+        <aop:pointcut id="pc" expression="execution(* com.augmentum.oes.service..*.*(..))" />
+        <aop:advisor pointcut-ref="pc" advice-ref="logMethhodTime" order="1" />
+        <aop:advisor pointcut-ref="pc" advice-ref="txAdvice" order="2" />
+    </aop:config>
+
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource" />
+        <property name="typeAliasesPackage" value="com.augmentum.oes.model"></property>
+        <property name="mapperLocations" value="classpath*:com/augmentum/oes/model/mysql/*Mapper.xml" />
+    </bean>
+
+    <bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
+        <constructor-arg index="0" ref="sqlSessionFactory" />
+    </bean>
+
+    <bean id="baseDao" abstract="true">
+       <property name="sqlSessionTemplate" ref="sqlSessionTemplate" />
+    </bean>
+
+    <bean id="userDao" class="com.augmentum.oes.dao.mybatis.UserDaoImpl" parent="baseDao" />
+
+    <bean id="questionDao" class="com.augmentum.oes.dao.mybatis.QuestionDaoImpl" parent="baseDao" />
+    
+    <!-- 
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate" >
+        <property name="dataSource">
+            <ref bean="dataSource" />
+        </property>
+    </bean>
+    
+    <bean id="baseDao" abstract="true">
+       <property name="jdbcTemplate" ref="jdbcTemplate"></property>
+    </bean>
+    
+    <bean id="userDao" class="com.augmentum.oes.dao.jdbc.mysql.UserDaoImpl" parent="baseDao" />
+
+    <bean id="questionDao" class="com.augmentum.oes.dao.jdbc.mysql.QuestionDaoImpl" parent="baseDao" /> 
+    -->
+
+    <bean id="userService" class="com.augmentum.oes.service.impl.UserServiceImpl" scope="singleton" >
+        <property name="userDao" ref="userDao" />
+    </bean>
+
+    <bean id="questionService" class="com.augmentum.oes.service.impl.QuestionServiceImpl" scope="singleton" >
+        <property name="questionDao" ref="questionDao" />
+    </bean>
+
+    <bean class="com.augmentum.oes.util.SpringUtil"></bean>
+</beans>

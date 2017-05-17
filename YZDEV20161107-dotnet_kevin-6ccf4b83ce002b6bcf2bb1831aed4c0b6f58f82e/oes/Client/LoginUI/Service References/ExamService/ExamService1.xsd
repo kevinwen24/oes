@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/OESModel" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/OESModel" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="Pagination">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CurrentPage" type="xs:int" />
+      <xs:element minOccurs="0" name="OtherType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:int" />
+      <xs:element minOccurs="0" name="SortDirection" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SortName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TotalCount" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Pagination" nillable="true" type="tns:Pagination" />
+  <xs:complexType name="ArrayOfExam">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Exam" nillable="true" type="tns:Exam" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfExam" nillable="true" type="tns:ArrayOfExam" />
+  <xs:complexType name="Exam">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CreateTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CreateUser" type="xs:int" />
+      <xs:element minOccurs="0" name="DuringTime" type="xs:int" />
+      <xs:element minOccurs="0" name="ExamId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Operation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PassScore" type="xs:int" />
+      <xs:element minOccurs="0" name="QuestionQuantity" type="xs:int" />
+      <xs:element minOccurs="0" name="RowNum" type="xs:long" />
+      <xs:element minOccurs="0" name="Score" type="xs:int" />
+      <xs:element minOccurs="0" name="SingleScore" type="xs:int" />
+      <xs:element minOccurs="0" name="StartTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TotalScore" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Exam" nillable="true" type="tns:Exam" />
+</xs:schema>

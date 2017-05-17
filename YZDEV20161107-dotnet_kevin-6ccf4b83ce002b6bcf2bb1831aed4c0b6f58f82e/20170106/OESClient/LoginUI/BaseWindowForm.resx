@@ -1,0 +1,756 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblNavHome.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblNavUserPic.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;picCloseAlertWin.Name" xml:space="preserve">
+    <value>picCloseAlertWin</value>
+  </data>
+  <data name="lblNavName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="picMiniWin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pnlNaviation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1024, 38</value>
+  </data>
+  <data name="&gt;&gt;lblonlineExamTitle.Parent" xml:space="preserve">
+    <value>pnlFormTitle</value>
+  </data>
+  <data name="picMiniWin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>898, 14</value>
+  </data>
+  <data name="lblAlertMessage.Text" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="lblFlashMsg.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="&gt;&gt;pnlAlertWindow.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlNaviation.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;lblLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblLogout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="lblNavHome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 40</value>
+  </data>
+  <data name="&gt;&gt;lblCloseAlertWinIKnow.Parent" xml:space="preserve">
+    <value>pnlAlertWindow</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlNaviation.Name" xml:space="preserve">
+    <value>pnlNaviation</value>
+  </data>
+  <data name="&gt;&gt;picLogo.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="picLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 4</value>
+  </data>
+  <data name="&gt;&gt;picCloseAlertWin.Parent" xml:space="preserve">
+    <value>pnlAlertWindow</value>
+  </data>
+  <data name="lblNavHome.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;picLogo.Parent" xml:space="preserve">
+    <value>pnlFormTitle</value>
+  </data>
+  <data name="lblCloseAlertWinIKnow.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;picLogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlAlertWindow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>316, 270</value>
+  </data>
+  <data name="lblonlineExamTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 19</value>
+  </data>
+  <data name="&gt;&gt;pnlFormTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlNaviation.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblNavHome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNameAndPhonebg.Name" xml:space="preserve">
+    <value>lblNameAndPhonebg</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>BaseForm</value>
+  </data>
+  <data name="lblAlertMessage.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;lblonlineExamTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="picCloseAlertWin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="lblLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>899, 14</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlNaviation.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblLogout.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblCloseAlertWinIKnow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblFlashMsg.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lblNavMyExam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picCloseWin.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblNameAndPhonebg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 39</value>
+  </data>
+  <data name="&gt;&gt;picMaxWin.Name" xml:space="preserve">
+    <value>picMaxWin</value>
+  </data>
+  <data name="lblNavName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="lblNameAndPhonebg.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 18px</value>
+  </data>
+  <data name="pnlBodyContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblNavName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlAlertWindow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>434, 174</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 44</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>594, -65</value>
+  </data>
+  <data name="&gt;&gt;lblCloseAlertWinIKnow.Name" xml:space="preserve">
+    <value>lblCloseAlertWinIKnow</value>
+  </data>
+  <data name="&gt;&gt;picMaxWin.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pnlBodyContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblCloseAlertWinIKnow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 117</value>
+  </data>
+  <data name="&gt;&gt;lblLogout.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblFlashMsg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="picCloseAlertWin.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="picCloseAlertWin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>400, 7</value>
+  </data>
+  <data name="&gt;&gt;lblNavUserPic.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblNavHome.Parent" xml:space="preserve">
+    <value>pnlNaviation</value>
+  </data>
+  <data name="lblAlertMessage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="&gt;&gt;lblNavHome.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblNavMyExam.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="pnlAlertWindow.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;picCloseAlertWin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="picMaxWin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 14</value>
+  </data>
+  <data name="picMiniWin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 13</value>
+  </data>
+  <data name="lblonlineExamTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 6</value>
+  </data>
+  <data name="&gt;&gt;lblNavUserPic.Name" xml:space="preserve">
+    <value>lblNavUserPic</value>
+  </data>
+  <data name="&gt;&gt;lblNameAndPhonebg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNavMyExam.Parent" xml:space="preserve">
+    <value>pnlNaviation</value>
+  </data>
+  <data name="lblLogout.Text" xml:space="preserve">
+    <value>logout</value>
+  </data>
+  <data name="&gt;&gt;pnlNaviation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>BaseWindowForm</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="lblCloseAlertWinIKnow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 35</value>
+  </data>
+  <data name="lblNavMyExam.Text" xml:space="preserve">
+    <value>My Exam</value>
+  </data>
+  <data name="pnlFormTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlFormTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1024, 28</value>
+  </data>
+  <data name="lblFlashMsg.Text" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="picMaxWin.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblonlineExamTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblLanguage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblAlertMessage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnlFormTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblNavMyExam.Name" xml:space="preserve">
+    <value>lblNavMyExam</value>
+  </data>
+  <data name="picMaxWin.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lblLogout.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="&gt;&gt;pnlFormTitle.Name" xml:space="preserve">
+    <value>pnlFormTitle</value>
+  </data>
+  <data name="lblAlertMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 68</value>
+  </data>
+  <data name="picMaxWin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="lblLanguage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="&gt;&gt;pnlBodyContainer.Name" xml:space="preserve">
+    <value>pnlBodyContainer</value>
+  </data>
+  <data name="&gt;&gt;lblLanguage.Name" xml:space="preserve">
+    <value>lblLanguage</value>
+  </data>
+  <data name="lblLanguage.Text" xml:space="preserve">
+    <value>中文</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>pnlNaviation</value>
+  </data>
+  <data name="lblNavName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="picMiniWin.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblLanguage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;picLogo.Name" xml:space="preserve">
+    <value>picLogo</value>
+  </data>
+  <data name="lblNavName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 16</value>
+  </data>
+  <data name="&gt;&gt;picMiniWin.Name" xml:space="preserve">
+    <value>picMiniWin</value>
+  </data>
+  <data name="&gt;&gt;picMiniWin.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblFlashMsg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>383, 2</value>
+  </data>
+  <data name="pnlBodyContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 28</value>
+  </data>
+  <data name="&gt;&gt;pnlBodyContainer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlFormTitle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblLogout.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFlashMsg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 35</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 63</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="&gt;&gt;picMaxWin.Parent" xml:space="preserve">
+    <value>pnlFormTitle</value>
+  </data>
+  <data name="lblNavMyExam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, -1</value>
+  </data>
+  <data name="&gt;&gt;pnlNaviation.Parent" xml:space="preserve">
+    <value>pnlBodyContainer</value>
+  </data>
+  <data name="lblAlertMessage.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lblNavMyExam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 40</value>
+  </data>
+  <data name="&gt;&gt;pnlBodyContainer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblLanguage.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;lblLogout.Name" xml:space="preserve">
+    <value>lblLogout</value>
+  </data>
+  <data name="lblonlineExamTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 16px, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;picCloseWin.Name" xml:space="preserve">
+    <value>picCloseWin</value>
+  </data>
+  <data name="picLogo.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="picCloseWin.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblNavUserPic.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblFlashMsg.Name" xml:space="preserve">
+    <value>lblFlashMsg</value>
+  </data>
+  <data name="picMaxWin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>940, 8</value>
+  </data>
+  <data name="lblAlertMessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 33</value>
+  </data>
+  <data name="&gt;&gt;lblNavName.Name" xml:space="preserve">
+    <value>lblNavName</value>
+  </data>
+  <data name="&gt;&gt;lblNavName.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;picCloseWin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblonlineExamTitle.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblonlineExamTitle.Name" xml:space="preserve">
+    <value>lblonlineExamTitle</value>
+  </data>
+  <data name="lblNavHome.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 18px</value>
+  </data>
+  <data name="pnlBodyContainer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12px</value>
+  </data>
+  <data name="picMiniWin.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lblonlineExamTitle.Text" xml:space="preserve">
+    <value>Online Exam System Client</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblLogout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>952, 14</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="pnlNaviation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 40</value>
+  </data>
+  <data name="&gt;&gt;pnlAlertWindow.Name" xml:space="preserve">
+    <value>pnlAlertWindow</value>
+  </data>
+  <data name="lblNavHome.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="&gt;&gt;picCloseWin.Parent" xml:space="preserve">
+    <value>pnlFormTitle</value>
+  </data>
+  <data name="&gt;&gt;picCloseAlertWin.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="picCloseWin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>976, 5</value>
+  </data>
+  <data name="lblNavHome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, -1</value>
+  </data>
+  <data name="lblLogout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;lblNavUserPic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tmrShowFlashMsg.Name" xml:space="preserve">
+    <value>tmrShowFlashMsg</value>
+  </data>
+  <data name="lblNavName.Text" xml:space="preserve">
+    <value>name</value>
+  </data>
+  <data name="lblCloseAlertWinIKnow.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;picMaxWin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlAlertWindow.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;lblFlashMsg.Parent" xml:space="preserve">
+    <value>pnlNaviation</value>
+  </data>
+  <data name="picCloseAlertWin.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;tmrShowFlashMsg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLogout.Parent" xml:space="preserve">
+    <value>pnlNaviation</value>
+  </data>
+  <data name="&gt;&gt;pnlFormTitle.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>OESUI.BaseMovingForm, LoginUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="picLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 22</value>
+  </data>
+  <data name="lblLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 16</value>
+  </data>
+  <data name="lblNameAndPhonebg.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblNavUserPic.Parent" xml:space="preserve">
+    <value>pnlNaviation</value>
+  </data>
+  <data name="lblCloseAlertWinIKnow.Text" xml:space="preserve">
+    <value>I Know!</value>
+  </data>
+  <data name="pnlBodyContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1024, 740</value>
+  </data>
+  <data name="picCloseWin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 19</value>
+  </data>
+  <data name="lblNameAndPhonebg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>778, -1</value>
+  </data>
+  <data name="lblNavUserPic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 26</value>
+  </data>
+  <data name="lblNavMyExam.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblFlashMsg.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="picCloseWin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>pnlFormTitle</value>
+  </data>
+  <data name="lblNameAndPhonebg.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblonlineExamTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="picCloseWin.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lblNavUserPic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>793, 11</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1024, 768</value>
+  </data>
+  <data name="&gt;&gt;lblAlertMessage.Name" xml:space="preserve">
+    <value>lblAlertMessage</value>
+  </data>
+  <data name="lblNavMyExam.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 18px</value>
+  </data>
+  <data name="pnlFormTitle.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;lblNameAndPhonebg.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;pnlAlertWindow.Parent" xml:space="preserve">
+    <value>pnlBodyContainer</value>
+  </data>
+  <data name="&gt;&gt;lblNavHome.Name" xml:space="preserve">
+    <value>lblNavHome</value>
+  </data>
+  <data name="&gt;&gt;picMiniWin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblNavName.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblNavName.Parent" xml:space="preserve">
+    <value>pnlNaviation</value>
+  </data>
+  <data name="&gt;&gt;lblAlertMessage.Parent" xml:space="preserve">
+    <value>pnlAlertWindow</value>
+  </data>
+  <data name="&gt;&gt;lblCloseAlertWinIKnow.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="picLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblAlertMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLogout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlAlertWindow.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;pnlAlertWindow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNameAndPhonebg.Parent" xml:space="preserve">
+    <value>pnlNaviation</value>
+  </data>
+  <data name="pnlBodyContainer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;picMiniWin.Parent" xml:space="preserve">
+    <value>pnlFormTitle</value>
+  </data>
+  <data name="lblNavMyExam.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblCloseAlertWinIKnow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblNavName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>839, 14</value>
+  </data>
+  <data name="lblFlashMsg.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblLanguage.Parent" xml:space="preserve">
+    <value>pnlNaviation</value>
+  </data>
+  <data name="&gt;&gt;lblFlashMsg.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="pnlBodyContainer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <metadata name="tmrShowFlashMsg.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

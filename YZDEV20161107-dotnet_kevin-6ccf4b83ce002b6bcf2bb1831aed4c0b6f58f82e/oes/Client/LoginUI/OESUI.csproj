@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B3425ED6-06C8-4435-93E5-D5BB9BDEB8A1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LoginUI</RootNamespace>
+    <AssemblyName>LoginUI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Service References\ExamService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\UserService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\QuestionService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="TakeExam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TakeExam.Designer.cs">
+      <DependentUpon>TakeExam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseWindowForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseWindowForm.Designer.cs">
+      <DependentUpon>BaseWindowForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="customer\ComboBoxExtend.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="customer\ComboBoxExtend.Designer.cs">
+      <DependentUpon>ComboBoxExtend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="customer\DataLineControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="customer\DataLineControl.Designer.cs">
+      <DependentUpon>DataLineControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExamListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExamListForm.Designer.cs">
+      <DependentUpon>ExamListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseMovingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseMovingForm.Designer.cs">
+      <DependentUpon>BaseMovingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestExam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestExam.Designer.cs">
+      <DependentUpon>TestExam.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BaseWindowForm.resx">
+      <DependentUpon>BaseWindowForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="customer\ComboBoxExtend.resx">
+      <DependentUpon>ComboBoxExtend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="customer\DataLineControl.resx">
+      <DependentUpon>DataLineControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExamListForm.resx">
+      <DependentUpon>ExamListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.af-ZA.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseMovingForm.resx">
+      <DependentUpon>BaseMovingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="TakeExam.resx">
+      <DependentUpon>TakeExam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestExam.resx">
+      <DependentUpon>TestExam.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\DataSources\OESModel.Exam.datasource" />
+    <None Include="Properties\DataSources\OESModel.Question.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Service References\ExamService\ExamService.wsdl" />
+    <None Include="Service References\ExamService\ExamService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ExamService\ExamService1.wsdl" />
+    <None Include="Service References\ExamService\ExamService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ExamService\ExamService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\UserService\UserService.wsdl" />
+    <None Include="Service References\UserService\UserService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\UserService\UserService1.wsdl" />
+    <None Include="Service References\UserService\UserService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\QuestionService\QuestionService.wsdl" />
+    <None Include="Service References\QuestionService\QuestionService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\QuestionService\QuestionService1.wsdl" />
+    <None Include="Service References\QuestionService\QuestionService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\QuestionService\QuestionService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICN_Wrong_15x15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO_Client_Titel_120x20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICN_Client_PersonalInformation_20x20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICN_Password_20x15.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICN_Usename_20x20.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO_Client_Login_40X300.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO_Client_Titel_120x201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\myPic_title.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\myPic_close_win.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICN_Client_Login_Wrong_20X20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OESCommon\OESCommon.csproj">
+      <Project>{7DE24317-48DF-4F7C-A409-4D731DEEF9CD}</Project>
+      <Name>OESCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OESException\OESException.csproj">
+      <Project>{5B8B7904-4F3E-422F-8554-FF828FFCA442}</Project>
+      <Name>OESException</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OESModel\OESModel.csproj">
+      <Project>{68E5C090-91FE-42AA-B9DF-012D8EEACF38}</Project>
+      <Name>OESModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OESUtil\OESUtil.csproj">
+      <Project>{619EFD28-FDB4-46FF-86E4-E08F4D4B8DA2}</Project>
+      <Name>OESUtil</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\myPic_title1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\myPic_title2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO_Client_Titel_120x202.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO_Client_Minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO_Client_Maxmize2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO_Client_TS_Close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICN_Client_PersonalInformation_20x201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICN_Increase_10x15.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICN_Decrese_10x15.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BTN_PageLeft_20x15.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BTN_PageRight_20x15.png .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic_down_select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic_down_select1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_data_header.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICN_Increase_10x15.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BTN_Close_16x16.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ExamService\" />
+    <WCFMetadataStorage Include="Service References\UserService\" />
+    <WCFMetadataStorage Include="Service References\QuestionService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\UserService\UserService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\UserService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\UserService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\UserService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\QuestionService\QuestionService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\QuestionService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\QuestionService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\QuestionService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ExamService\ExamService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ExamService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ExamService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ExamService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

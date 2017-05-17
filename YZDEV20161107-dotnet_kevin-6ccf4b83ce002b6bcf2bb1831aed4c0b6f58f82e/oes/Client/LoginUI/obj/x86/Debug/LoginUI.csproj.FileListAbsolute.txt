@@ -1,0 +1,12 @@
+D:\DotNet\workspace\LoginUI\LoginUI\bin\Debug\LoginUI.exe
+D:\DotNet\workspace\LoginUI\LoginUI\bin\Debug\LoginUI.pdb
+D:\DotNet\workspace\LoginUI\LoginUI\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\DotNet\workspace\LoginUI\LoginUI\obj\x86\Debug\LoginUI.Properties.Resources.resources
+D:\DotNet\workspace\LoginUI\LoginUI\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\DotNet\workspace\LoginUI\LoginUI\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\DotNet\workspace\LoginUI\LoginUI\obj\x86\Debug\LoginUI.exe
+D:\DotNet\workspace\LoginUI\LoginUI\obj\x86\Debug\LoginUI.pdb
+D:\DotNet\workspace\LoginUI\LoginUI\obj\x86\Debug\LoginUI.LoginForm.resources
+D:\DotNet\workspace\LoginUI\LoginUI\bin\Debug\af-ZA\LoginUI.resources.dll
+D:\DotNet\workspace\LoginUI\LoginUI\obj\x86\Debug\LoginUI.LoginForm.af-ZA.resources
+D:\DotNet\workspace\LoginUI\LoginUI\obj\x86\Debug\af-ZA\LoginUI.resources.dll

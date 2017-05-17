@@ -1,0 +1,15 @@
+D:\DotNet\workspace\LoginUI\OESLogic\bin\Debug\OESLogic.dll
+D:\DotNet\workspace\LoginUI\OESLogic\bin\Debug\OESLogic.pdb
+D:\DotNet\workspace\LoginUI\OESLogic\obj\Debug\ResolveAssemblyReference.cache
+D:\DotNet\workspace\LoginUI\OESLogic\obj\Debug\OESLogic.dll
+D:\DotNet\workspace\LoginUI\OESLogic\obj\Debug\OESLogic.pdb
+D:\DotNet\workspace\LoginUI\OESLogic\bin\Debug\OESDAL.dll
+D:\DotNet\workspace\LoginUI\OESLogic\bin\Debug\OESDAL.pdb
+D:\DotNet\workspace\LoginUI\OESLogic\bin\Debug\OESModel.dll
+D:\DotNet\workspace\LoginUI\OESLogic\bin\Debug\OESModel.pdb
+D:\DotNet\workspace\LoginUI\OESLogic\bin\Debug\OESException.dll
+D:\DotNet\workspace\LoginUI\OESLogic\bin\Debug\OESException.pdb
+D:\DotNet\workspace\LoginUI\OESLogic\bin\Debug\OESUtil.dll
+D:\DotNet\workspace\LoginUI\OESLogic\bin\Debug\OESUtil.pdb
+D:\DotNet\workspace\LoginUI\OESLogic\bin\Debug\OESCommon.dll
+D:\DotNet\workspace\LoginUI\OESLogic\bin\Debug\OESCommon.pdb

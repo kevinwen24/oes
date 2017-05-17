@@ -1,0 +1,54 @@
+
+.create_question {
+    position: relative;
+}
+
+#editQuestion .li_id .question_span {
+    position: absolute;
+    top:10px;
+    left:105px;
+}
+
+#editQuestion .li_id input {
+    position: absolute;
+    top:10px;    
+    left: 245px;
+    width:100px;
+    border-radius:5px;
+    border:0;
+}
+
+#editQuestion .li_title .question {
+    position: absolute;
+    top:40px;
+    left:100px;
+}
+
+#editQuestion .li_title textarea {
+    position: absolute;
+    top: 40px;   
+    left: 225px;
+    width:200px;
+    border-radius:5px;
+}
+
+#editQuestion .li_answer span{
+    position: absolute;
+    top:205px;
+    left:105px;
+}
+
+#editQuestion .li_answer input{
+    border-radius:5px;
+    outline: none
+}
+
+#editQuestion .li_answer #answer_id{
+    position: absolute;
+    top: 160px;
+    left: 230px;
+}
+
+input,textarea {
+    border: 1px solid #ccc;
+}

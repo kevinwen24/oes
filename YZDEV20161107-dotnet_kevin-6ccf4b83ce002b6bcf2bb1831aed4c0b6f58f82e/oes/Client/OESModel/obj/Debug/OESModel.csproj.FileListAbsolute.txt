@@ -1,0 +1,5 @@
+D:\DotNet\workspace\LoginUI\OESModel\obj\Debug\ResolveAssemblyReference.cache
+D:\DotNet\workspace\LoginUI\OESModel\bin\Debug\OESModel.dll
+D:\DotNet\workspace\LoginUI\OESModel\bin\Debug\OESModel.pdb
+D:\DotNet\workspace\LoginUI\OESModel\obj\Debug\OESModel.dll
+D:\DotNet\workspace\LoginUI\OESModel\obj\Debug\OESModel.pdb

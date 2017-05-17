@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c43af93e-ca3a-4a4a-bc5e-22847f6f877e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8888/OESLogic/QuestionService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="QuestionService.xsd" MetadataType="Schema" ID="8a39081b-272a-4fba-97ea-35ee22beb995" SourceId="1" SourceUrl="http://localhost:8888/OESLogic/QuestionService?xsd=xsd0" />
+    <MetadataFile FileName="QuestionService.disco" MetadataType="Disco" ID="85003af5-aede-404b-8b12-53a6958bea6e" SourceId="1" SourceUrl="http://localhost:8888/OESLogic/QuestionService?disco" />
+    <MetadataFile FileName="QuestionService.wsdl" MetadataType="Wsdl" ID="aa12eb11-4a10-4f20-abd4-8ad2fb8d8b20" SourceId="1" SourceUrl="http://localhost:8888/OESLogic/QuestionService?wsdl=wsdl0" />
+    <MetadataFile FileName="QuestionService1.xsd" MetadataType="Schema" ID="248d16e3-ca3f-421c-9a87-86c0db5e11f9" SourceId="1" SourceUrl="http://localhost:8888/OESLogic/QuestionService?xsd=xsd2" />
+    <MetadataFile FileName="QuestionService1.wsdl" MetadataType="Wsdl" ID="6236dfa4-ff34-43cc-a51b-9b7bccfa786c" SourceId="1" SourceUrl="http://localhost:8888/OESLogic/QuestionService?wsdl" />
+    <MetadataFile FileName="QuestionService2.xsd" MetadataType="Schema" ID="1a8064c3-ba1c-4799-b6a3-02273aed290b" SourceId="1" SourceUrl="http://localhost:8888/OESLogic/QuestionService?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,95 @@
+.left_detail {
+    width:100px;
+    height: 500px;
+    float: left;
+    margin-left:150px;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+.left_detail .question_id{
+    width: 200px;
+    text-align: left;
+    height: 50px;
+}
+
+.left_detail .question{
+      height: 80px;
+}
+
+.left_detail .answer{
+    margin-top:40px;
+}
+
+.right_detail {
+    width:500px;
+    height:500px;
+    float: left;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+.right_detail .question_id {
+    height: 50px;
+}
+
+.right_detail .question{
+    line-height: 25px;
+    height:80px;
+}
+
+.right_detail .question xmp {
+    word-wrap: break-word;
+    width: 400px;
+    line-height: 25px;
+    height: 80px;
+    white-space : normal; 
+}
+
+.right_detail .answer ul {
+     margin-left: -10px;
+}
+
+.right_detail .answer ul li xmp{
+    float: right;
+    font-family: Arial;
+}
+ 
+.right_detail .answer ul li{
+    height:30px;
+    line-height: 30px;
+    border-radius:4px;
+    padding-left: 5px;
+    color: #0A0A0A;
+}
+ 
+.right_detail .edit {
+    display: inline-block;
+    background: #FE9901;
+    color:#fff;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius:5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.right_detail .delete {
+    margin-top: 20px;
+    display: inline-block;
+    background: #FE9901;
+    color: #fff;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 30px;
+}
